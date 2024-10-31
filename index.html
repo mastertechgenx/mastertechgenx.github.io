@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techgenx Devops Institute</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #222; /* Light black background */
+            color: #fff; /* White text for contrast */
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        .logo {
+            float: right;
+            width: 50%; /* Half of the page */
+            opacity: 0; /* Start invisible */
+            animation: fadeIn 2s forwards; /* Fade-in animation */
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); /* Cloud shape */
+        }
+        .logo img {
+            width: 100%;
+            height: auto; /* Original shape */
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0; /* Start invisible */
+            }
+            to {
+                opacity: 1; /* Fully visible */
+            }
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; /* Aligning items vertically */
+            margin: 20px 0;
+        }
+        .text {
+            width: 50%; /* Half of the page */
+            text-align: left;
+            padding: 20px;
+            font-size: 1.2em; /* Increased font size for better readability */
+            line-height: 1.5; /* Better spacing between lines */
+            background: #444; /* Slightly lighter background for contrast */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+        }
+        .courses {
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: left;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Center items */
+        }
+        .course {
+            background: #555; /* Course card background */
+            margin: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            flex: 0 1 calc(30% - 20px); /* Random width */
+            transition: transform 0.3s; /* Smooth hover effect */
+            color: #fff; /* White text for contrast */
+        }
+        .course:hover {
+            transform: scale(1.05); /* Scale effect on hover */
+        }
+        .contact {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Techgenx Devops Institute</h1>
+    </div>
+
+    <div class="content">
+        <div class="text">
+            <p>Welcome to Techgenx Devops Institute, where we offer the best training in DevOps practices and methodologies. Our experienced instructors will guide you through every aspect of the DevOps lifecycle, ensuring you have the skills to excel in this dynamic field.</p>
+        </div>
+        <div class="logo">
+            <img src="logo-link1.png" alt="Techgenx Logo"> <!-- Replace with your logo URL -->
+        </div>
+    </div>
+
+    <div class="courses">
+        <div class="course">RHCSA</div>
+        <div class="course">RHCE</div>
+        <div class="course">DevOps</div>
+        <div class="course">AWS Cloud</div>
+        <div class="course">Ansible</div>
+        <div class="course">Automation</div>
+        <div class="course">Jenkins</div>
+        <div class="course">Terraform</div>
+        <div class="course">Docker</div>
+        <div class="course">Kubernetes</div>
+        <div class="course">Git & GitHub</div>
+        <div class="course">CI/CD Pipelines</div>
+    </div>
+
+    <div class="contact">
+        <p>Contact us: master@techgenx.com | 8669886860</p>
+    </div>
+
+</body>
+</html>
