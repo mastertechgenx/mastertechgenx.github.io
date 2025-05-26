@@ -1,206 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=3.0">
-    <title>Techgenx DevOps Institute</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            width: 100%;  /* Full width of the viewport */
-            height: 200vh;  /* Full height of the viewport */
-            margin: 0;
-            padding: 0;
-            background-color: #1d1f21; /* Dark background */
-            color: #fff; /* White text for contrast */
-            line-height: 1.6;
-        }
-
-        .header {
-            background: linear-gradient(135deg, #4CAF50, #2c3e50); /* Gradient header */
-            color: white;
-            padding: 20px;
-            text-align: center;
-            font-size: 2rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-        }
-
-        .logo {
-            float: right;
-            width: 40%; /* Adjusted width */
-            opacity: 0;
-            animation: fadeIn 2s forwards;
-            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-        }
-
-        .logo img {
-            width: 100%;
-            height: auto;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        .content {
-            display: flex;
-            height: 2000px;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            margin-top: 20px;
-        }
-
-        .text {
-            width: 50%;
-            text-align: left;
-            font-size: 1.1rem;
-            background: #333;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-            transition: all 0.3s ease;
-        }
-
-        .text:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-        }
-
-        .courses {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive columns */
-            gap: 20px; /* Space between grid items */
-            padding: 20px;
-        }
-
-        /* Styling for each individual course */
-        .course {
-            background-color: white;
-            padding: 20px;
-            text-align: center;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            height: 100px; /* Fixed height for each course */
-            overflow: auto; /* Enable scrolling when content overflows */
-        }
-
-        /* Styling for the images */
-        .course img {
-            max-width: 80%;
-            max-height: 100px;
-            object-fit: contain;
-            margin-bottom: 10px;
-        }
-
-        /* Styling for course title */
-        .course p {
-            font-size: 1.2rem;
-            font-weight: bold;
-            margin: 10px 0 0;
-            flex-grow: 1; /* Allow the text to take up remaining space */
-        }
-
-
-        .contact {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            text-align: center;
-            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.4);
-        }
-
-        /* Responsiveness */
-        @media (max-width: 768px) {
-            .content {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
-
-            .logo {
-                width: 60%;
-                margin-top: 20px;
-            }
-
-            .text {
-                width: 80%;
-            }
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGenX "</title>
+    <link rel="shortcut icon" href="./apple-touch-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
-</body>
+
 <body>
-
-    <div class="header">
-        <h1>Techgenx DevOps Institute - Website Work In Progress</h1>
+    <div id="loader">
+        <h1>WELCOME</h1>
+        <h1>TO</h1>
+        <h1>TechGenX</h1>
     </div>
+    <div id="fixed-image">
 
-    <div class="content">
-        <div class="text">
-            <p>Welcome to Techgenx DevOps Institute, where we offer the best training in DevOps practices and methodologies. Our experienced instructors will guide you through every aspect of the DevOps lifecycle, ensuring you have the skills to excel in this dynamic field.</p>
+    </div>
+    <div id="main">
+
+        <div id="page1">
+            <nav>
+                <img src="Untitled design-2.png" alt="">
+                <div id="nav-part2">
+                    <h4><a href="#">Work</a></h4>
+                    <!-- <h4><a href="#">Studio</a></h4> -->
+                    <h4><a href="">Contact</a></h4>
+                </div>
+                <h3>Menu</h3>
+            </nav>
+            <div id="center">
+                <div id="left">
+                    <h3>TechGenX.</h3>
+                </div>
+                <div id="right">
+                    <h1>TechGenX<br>
+                        DevOps <br>
+                        Institute</h1>
+                </div>
+
+            </div>
+            <div id="hero-shape">
+                <div id="hero-1"></div>
+                <div id="hero-2"></div>
+                <div id="hero-3"></div>
+            </div>
+            <video autoplay loop muted src="./video.mp4"></video>
         </div>
-        <div class="logo">
-            <img src="logo-link1.png" alt="Techgenx Logo"> <!-- Replace with your logo URL -->
+        <div id="page2">
+            <div id="moving-text">
+                <div class="con">
+                    <h1>EXPERIENCES</h1>
+                    <div id="gola"></div>
+                    <h1>CONTENT</h1>
+                    <div id="gola"></div>
+                    <h1>ENVIRONMENTS</h1>
+                    <div id="gola"></div>
+                </div>
+                <div class="con">
+                    <h1>EXPERIENCES</h1>
+                    <div id="gola"></div>
+                    <h1>CONTENT</h1>
+                    <div id="gola"></div>
+                    <h1>ENVIRONMENTS</h1>
+                    <div id="gola"></div>
+                </div>
+                <div class="con">
+                    <h1>EXPERIENCES</h1>
+                    <div id="gola"></div>
+                    <h1>CONTENT</h1>
+                    <div id="gola"></div>
+                    <h1>ENVIRONMENTS</h1>
+                    <div id="gola"></div>
+                </div>
+            </div>
+            <div id="page2-bottom">
+                <h1>Welcome to Techgenx DevOps Institute – your gateway to mastering DevOps.
+                    We provide industry-leading training in DevOps practices and methodologies, designed to equip you with the practical skills and real-world knowledge needed to thrive in today’s fast-paced tech landscape. Our expert instructors will support you every step of the way, guiding you through the entire DevOps lifecycle with hands-on learning and personalized mentorship.</h1>
+                <div id="bottom-part2">
+                    <img src="IMG_6051.png"
+                        alt="">
+                    <p>At Techgenx DevOps Institute, innovation, problem-solving, and collaboration are at the heart of everything we do. We’re passionate about transforming bold ideas into real-world solutions through hands-on training and expert guidance. More than just teaching, we believe in building lasting relationships and being a trusted partner on your journey to success—every step of the way.</p>
+                </div>
+            </div>
+            <div id="gooey">
+
+            </div>
+        </div>
+        <div id="page3">
+            <div id="elem-container">
+                <div id="elem1" class="elem"
+                    data-image="https://clslearn.com/wp-content/uploads/2022/12/Redhat-logo.webp">
+                    <div class="overlay"></div>
+                    <h2>RHCSA</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://img.freepik.com/free-vector/flat-design-devops-illustration_23-2149364438.jpg">
+                    <div class="overlay"></div>
+                    <h2>DevOps</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://dxc.scene7.com/is/image/dxc/AWS_logo-1050x1050?qlt=90&wid=1200&ts=1733359975644&$square_desktop$&dpr=off">
+                    <div class="overlay"></div>
+                    <h2>AWS Cloud</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://logowik.com/content/uploads/images/ansible3554.jpg">
+                    <div class="overlay"></div>
+                    <h2>Ansible</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://supportfly.io/wp-content/uploads/2024/09/Get-Faster-application-deployment-with-Docker-consulting-service-with-SupportFly.webp">
+                    <div class="overlay"></div>
+                    <h2>Docker</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://sysdig.com/wp-content/uploads/2017/03/Kubernetes_1-e1490380003654.jpg">
+                    <div class="overlay"></div>
+                    <h2>Kubernetes</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://cdn.prod.website-files.com/638106149a6441f0708f5c0a/64215cf64cf41f4b673cf7b0_git_github.svg">
+                    <div class="overlay"></div>
+                    <h2>Git & GitHub</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://w7.pngwing.com/pngs/636/546/png-transparent-computer-icons-automation-automation-miscellaneous-automation-line.png">
+                    <div class="overlay"></div>
+                    <h2>Automation</h2>
+                </div>
+                <div class="elem"
+                data-image="https://spng.pngfind.com/pngs/s/137-1375379_ci-cd-with-github-travis-ci-and-heroku.png">
+                <div class="overlay"></div>
+                <h2>CI/CD Pipelines</h2>
+                </div>
+                <div class="elem"
+                data-image="https://img.icons8.com/fluent/512/terraform.png">
+                <div class="overlay"></div>
+                <h2>Terraform</h2>
+                </div>
+                <div class="elem"
+                data-image="https://e7.pngegg.com/pngimages/180/365/png-clipart-jenkins-devops-continuous-integration-software-development-installation-selenium-text-hand.png">
+                <div class="overlay"></div>
+                <h2>Jenkins</h2>
+                </div>
+            </div>
+        </div>
+         <!-- <div id="page4">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                </div> -->
+<!-- 
+            </div>
+        </div>  -->
+        <div id="page5">    
+        </div>
+        <div id="full-scr">
+            <div id="full-div1">
+                
+            </div>
         </div>
     </div>
-
-    <div class="courses">
-        <div class="course">
-            <img src="RHCSA.png" alt="RHCSA" width="700" height="700">
-            <p>RHCSA</p>
-        </div>
-        <div class="course">
-            <img src="RHCE.png" alt="RHCE">
-            <p>RHCE</p>
-        </div>
-        <div class="course">
-            <p>DevOps</p>
-        </div>
-        <div class="course">
-            <p>AWS Cloud</p>
-        </div>
-        <div class="course">
-            <p>Ansible</p>
-        </div>
-        <div class="course">
-            <p>Automation</p>
-        </div>
-        <div class="course">
-            <p>Jenkins</p>
-        </div>
-        <div class="course">
-            <p>Terraform</p>
-        </div>
-        <div class="course">
-            <p>Docker</p>
-        </div>
-        <div class="course">
-            <p>Kubernetes</p>
-        </div>
-        <div class="course">
-            <p>Git & GitHub</p>
-        </div>
-        <div class="course">
-            <p>CI/CD Pipelines</p>
-        </div>
+    <div id="footer">
+        <div id="footer-div"></div>
+        <h2>content:    Addr:</h2>
+        <h1>TechGenX...</h1>
+        <div id="footer-bottom"></div>
     </div>
-
-    <div class="contact">
-        <p>Contact us: master@techgenx.in | 8669886860</p>
-    </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
