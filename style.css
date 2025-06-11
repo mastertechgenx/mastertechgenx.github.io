@@ -140,43 +140,6 @@ nav h3 {
     top: 65vh;
 }
 
-/* #hero-1 {
-    background-color: #EFEAE3;
-    height: 50%;
-    width: 100%;
-    border-top-left-radius: 40%;
-    border-bottom-left-radius: 40%;
-    filter: blur(10px);
-    position: absolute;
-}
-s
-#hero-2 {
-    background: linear-gradient(#EFEAE3);
-    height: 10vw;
-    width: 30vw;
-    border-radius: 50%;
-    position: absolute;
-    animation-name: anime2;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    filter: blur(25px);
-}
-
-#hero-3 {
-    background: linear-gradient(#EFEAE3);
-    height: 10vw;
-    position: absolute;
-    width: 30vw;
-    border-radius: 50%;
-    filter: blur(25px);
-    animation-name: anime1;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-} */
 
 @keyframes anime1 {
     from {
