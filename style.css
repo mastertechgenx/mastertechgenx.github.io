@@ -132,7 +132,7 @@ nav h3 {
     width: 100%;
 }
 
-#hero-shape {
+#h-shape {
     position: absolute;
     width: 28vw;
     height: 30vw;
@@ -247,7 +247,7 @@ nav h3 {
     font-size: 1vw;
 }
 
-#page2 #gooey {
+#page2 #goo {
     height: 32vw;
     width: 32vw;
     position: absolute;
@@ -259,7 +259,7 @@ nav h3 {
     top: 58%;
     left: 25%;
     filter: blur(20px);
-    animation-name: gooey;
+    animation-name: goo;
     animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -267,7 +267,7 @@ nav h3 {
 
 }
 
-@keyframes gooey {
+@keyframes goo {
     from {
         filter: blur(20px);
         transform: translate(10%, -10%) skew(0);
@@ -310,7 +310,7 @@ nav h3 {
 .elem .overlay {
     height: 100%;
     width: 100%;
-    background-color: orange;
+    background-color: lightskyblue;
     position: absolute;
     left: 0;
     top: -100%;
@@ -325,9 +325,9 @@ nav h3 {
 
 #fixed-image {
     height: 30vw;
-    width: 28vw;
+    width: 33vw;
     /* background-color: red; */
-    border-radius: 15px;
+    border-radius: 15spx;
     position: fixed;
     z-index: 99;
     left: 50%;
@@ -386,6 +386,22 @@ nav h3 {
     /* background-color: blue; */
 }
 
+#footer-cont {
+    /* padding: 2vw 0vw;
+    width: 100%; 
+    background-color: red;
+    display: flex;
+    position: relative; 
+    z-index: 100; 
+    justify-content: space-between; 
+    text-align: left; */
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    /* justify-content: space-between; */
+    color: var(--gfg-footer-text-color);
+}
 #footer-bottom {
     border-top: 1px solid #dadada;
     height: 10vh;
@@ -471,7 +487,7 @@ nav h3 {
         line-height: 15vw;
     }
 
-    #page1 video {
+    /* #page1 video {
         position: relative;
         border-radius: 15px;
         margin-top: 4vw;
@@ -480,7 +496,7 @@ nav h3 {
         object-position: center;
         width: 92%;
         margin-left: 4%;
-    }
+    } */
 
     #page2 {
         min-height: 100vh;
@@ -503,13 +519,13 @@ nav h3 {
         white-space: nowrap;
         display: inline-block;
         animation-name: move;
-        animation-duration: 10s;
+        animation-duration: 15s;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
     }
 
     #moving-text h1 {
-        font-size: 15vw;
+        font-size: 10vw;
         /* background-color: lightblue; */
         display: inline-block;
     }
@@ -558,7 +574,7 @@ nav h3 {
         font-size: 3vw;
     }
 
-    #page2 #gooey {
+    #page2 #goo {
         height: 62vw;
         width: 62vw;
         position: absolute;
@@ -570,7 +586,7 @@ nav h3 {
         top: 58%;
         left: 25%;
         filter: blur(20px);
-        animation-name: gooey;
+        animation-name: goo;
         animation-duration: 6s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
@@ -598,7 +614,7 @@ nav h3 {
     font-size: 4vw;
     color: transparent;
     background: linear-gradient(to right, lightskyblue,rgb(0, 128, 198));
-    -webkit-background-clip: text;
+    background-clip: text;
     position: absolute;
     opacity: 0;
     animation-name: load;
